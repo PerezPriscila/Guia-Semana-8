@@ -1,0 +1,62 @@
+#titulo-ejercicio-2 {
+    background-color: #c1cae0;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: solid 1px #424f74;
+    font-weight: 300;
+    font-size: 26px;
+    width: 750px;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin: 30px auto 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.ejercicio-2 {
+    width: 78em;
+    margin: 20px auto 0;
+    border-collapse: separate;
+    border-spacing: 40px;
+}
+
+.ejercicio-2 td {
+    margin: 30px;
+    background-color: #aac1ff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+    border: dashed 2px #7a91cf;
+}
+
+.ejercicio-2 a img {
+    background-color: #c8e6ff;
+    border-radius: 20px;
+    width: 150px;
+    box-shadow: 0 5px 10px 1px #2727273b;
+    border: inset 5px #3a5294;
+}
+
+.ejercicio-2 a img:hover {
+    opacity: 0.75;
+    background-color: #b9e3ff;
+    box-shadow: 0 0 10px 3px #3d3d3d50;
+}
+
+.ejercicio-2 label {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #2f4683;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.ejercicio-2 img.zoom-fix {
+    width: 125px;
+    padding: 12.5px;
+}
+
+.ejercicio-2 img.height-fix-bootstrap {
+    height: 130px;
+    padding: 10px 0;
+}
