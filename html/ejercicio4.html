@@ -5,6 +5,9 @@
     <title>Ejercicio 4</title>
     <link rel="stylesheet" href="../css/estilos-inicio.css">
     <link rel="stylesheet" href="../css/estilos-ejercicio4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="barra-navegacion">
@@ -17,11 +20,47 @@
             <li><a href="ejercicio5.html">Ejercicio 5</a></li>
         </ul>
     </nav>
+    <!-- Crear un formulario para poder acceder a un sistema los campos deben ser
+        (Usuario, contraseña y perfil del usuario (lista desplegable, docente o
+        alumno)), recuerde que la contraseña no debe ser visible.
 
-    <!-- SU CODIGO -->
-
+    -->
+   
+    <div class="contenedor">
+        <div class="first-box">
+            <h1 class="texto-bienvenida">Bienvenido nuevamente!</h1>
+        </div>
+        <!-- Formulario -->
+        <div class="second-box">
+            <div class="contenedor-formulario">
+                <h1 class="titulo">Iniciar sesión</h1>
+                <form action="ejercicio4.html" method="POST" >
+                    <div class="form-part"> 
+                        <label >Usuario</label>
+                        <input placeholder="Ingresa tu usuario" required class="input-style" type="text">
+                    </div>
+                    <div class="form-part"> 
+                        <label >Contraseña</label>
+                        <input placeholder="ingresa tu contraseña" required type="password" class="input-style">
+                    </div>
+                    <div class="form-part"> 
+                        <label >Seleccionar perfil de usuario</label>
+                        <select required type="text" class="input-style">
+                            <option value="1">Docente</option>
+                            <option value="2">Alumno</option>
+                        </select>
+                    </div>            
+                    <div class="contenedor-boton" >
+                        <button class="button" type="submit">
+                            Iniciar sesión
+                          </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
-        <h4>Hecho por:</h4>
+        <h4>Hecho por: Karen Adriana Martínez Rivera 141124</h4>
         <p>NOMBRE - CARNET</p>
     </footer>
 </body>
